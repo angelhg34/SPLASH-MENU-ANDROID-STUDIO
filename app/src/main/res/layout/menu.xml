@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú Principal"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp" />
+    <Button
+        android:id="@+id/btn_umb_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#661400"
+        android:text="Página Institucional UMB"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/btn_search_page"
+        android:layout_width="match_parent"
+        android:backgroundTint="#661400"
+        android:layout_height="wrap_content"
+        android:text="Buscar Páginas"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/btn_messages"
+        android:layout_width="match_parent"
+        android:backgroundTint="#661400"
+        android:layout_height="wrap_content"
+        android:text="Mensajes" />
+</LinearLayout>
